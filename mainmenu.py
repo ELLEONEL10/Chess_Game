@@ -43,7 +43,7 @@ def about_popup():
 
         # Add text and link
         text = font.render("Chess Game by Fadi Abbara & Anas Zahran", True, BLACK)
-        link_text = font.render("github.com/ELLEONEL10/Chess-Game", True, (0, 0, 255))
+        link_text = font.render("github.com/ELLEONEL10/Chess_Game", True, (0, 0, 255))
         screen.blit(popup, (popup_x, popup_y))
         screen.blit(text, (popup_x + 20, popup_y + 60))
         screen.blit(link_text, (popup_x + 20, popup_y + 100))
